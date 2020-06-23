@@ -9,12 +9,13 @@
     "express": "^4.17.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "serve": "^11.3.2"
   },
   "scripts": {
     "start-backend": "nodemon src/backend/app.js",
     "start-frontend": "PORT=3005 react-scripts start",
-    "build": "react-scripts build",
+    "start": "serve -s build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
